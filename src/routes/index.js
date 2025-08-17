@@ -21,10 +21,6 @@ const routes = [
         element: <pages.TaskManagementPage />
     },
     {
-        path: '/employee-management',
-        element: <pages.EmployeeManagementPage />
-    },
-    {
         path: '/chat',
         element: <pages.ChatPage />
     },

@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes } from "react-router-dom"
 import routes from "./routes"
 import AlertModal from './components/modals/alertModal';
+import ScrollButton from './components/buttons/ScrollButton';
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
           </Route>
         ))}
       </Routes>
+      <ScrollButton/>
       {/* <AlertModal/> */}
     </div>
   );
